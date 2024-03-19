@@ -25,16 +25,14 @@
 }
 .row 
 {
-    width: 220px;
-    height: 50px;
+    width: 390px;
+    height: 40px;
     border: none;
     outline: none;
     color: #fff;
     background: rgb(2, 92, 2);
     cursor: pointer;
     position: relative;
-    z-index: 0;
-    border-radius: 10px;
     margin: 10px;
     font-weight: bold;
 }
@@ -44,14 +42,14 @@
     content: '';
     background: rgb(1, 95, 1);
     position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
+    top: -7px;
+    left:-7px;
+    background-size: 600%;
     z-index: -1;
     filter: blur(6px);
-    width: calc(100% + 9px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
+    width: calc(100% + 10px);
+    height: calc(100% + 20px);
+    animation: Glowing 20s linear infinite;
     opacity: 0;
     border-radius: 10px;
 }

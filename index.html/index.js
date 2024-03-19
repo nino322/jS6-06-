@@ -1,4 +1,7 @@
+//საჭიროა შევქმნათ აპლიკაცია რომელიც `Fetch User` ღილაკზე დაჭერით მოგცემს საშუალებას რომ წამოვიღოთ მომხმარებლის ინფორმაცია
+//**https://randomuser.me/api** მოცემული მისამართიდან და მიღებული მონაცემები დავხატოთ ინფერფეისში.
 document.getElementById('fetch-btn').addEventListener('click', fetchUser);
+
 function fetchUser() {
     fetch('https://randomuser.me/api')
     .then(response => response.json())
